@@ -1,0 +1,3 @@
+# problem_scenario.md
+
+Many people want to find entertainment in a video game where they have to solve puzzles. We wish to explore making a game where the puzzles in a 2D platformer are composed of telekinetically-linked objects. To our knowledge, this concept can be expanded upon from what puzzler 2D platform games already exist. We hope to provide users with an enjoyable experience solving our puzzles in a novel manner.

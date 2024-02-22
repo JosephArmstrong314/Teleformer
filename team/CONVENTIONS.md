@@ -1,0 +1,13 @@
+# CONVENTIONS.md
+
+## Branches:  
+There are 3 types of branches:
+- main: This branch is where our project will be represented. As of the MVP, it should be deployable and bug-free *at all times*. This means that our team will follow the principles of Continuous Delivery. Only changes to documentation can be merged by the one creating the pull request. Else, another team member will look over the PR before merging.
+- feature branches: These are branches created an worked on specifically for issues on the Kanban board and deleted once the feature is merged into main. These branches follow the naming convention xx_featureName where "xx" are the initials of the team member assigned to the issue. Make sure these features are small enough so as not to create huge merge conflicts with main. Also, when making a PR, make sure to add the appropriate label for what the current sprint and/or purpose of the merge is. Also also, link the PR to the project and the correct issues.
+- Finally and optionally, there are personal branches which can be used as a proxy branch to rebase your code and test pushing to main before actually pushing to main. The idea is that you don't work on these branches directly, but that you constantly update the personal branch with main, and then when your feature branch is ready, test to see if it is compatable with main by verifying its compatability with the personal branch.
+
+## Kanban Board:
+There are a few columns on the Kanban Board worth describing:
+- Backlog: The Backlog is for all issues and user stories not immediately being worked on in the current sprint. If you want to record an idea or some feature that we will inevitably need to fulfill, then it goes here until we assign someone to it in a future sprint planning meeting.
+- User Stories: User Stories are created as described in our homework assignments. Each card can have multiple user stories, so long as they are similar in what features would satisfy them. Then, inside the card, there is a checklist of related issues. These should be links to other issues where the name of the link is the name of the issue and the link can be copied from the issue card. Finally, make sure to add an appropriate sprint label.
+- Issues in Progress: Team memebers are assigned to these issues. They should have simple names. The card should contain links to each user story the issue makes progress towards. Also, there should be a checklist of acceptance criteria. Finally, once a PR is merged to main for that issue, a link to the PR is made inside the card named PR #XX. Finally, the issue is moved to the Done column. Also, make sure to add an appropriate sprint label.

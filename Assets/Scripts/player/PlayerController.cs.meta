@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 58f697cc512711f42acdbbde79a8791b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _clip: {fileID: 8300000, guid: c4696325830bedb4eafa0e143052d728, type: 3}
+  - rigidbody: {instanceID: 0}
+  - link_manager: {instanceID: 0}
+  - groundChecker: {instanceID: 0}
+  - wall_checker: {instanceID: 0}
+  - player_linkable_object: {instanceID: 0}
+  - link_gun_transform: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

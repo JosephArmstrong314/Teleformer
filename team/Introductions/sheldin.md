@@ -1,0 +1,3 @@
+I am a fourth year cs student. I do not have any experience in game development. Some of the coding language that I know are C++, Python and Java.
+
+Some of my ideas for this project would be that there would be pieces lying around the map and those pieces can connect to certain pieces by using the players telekinetic abilities. It can looks somewhat like playing tetris while trying to pass the level.
